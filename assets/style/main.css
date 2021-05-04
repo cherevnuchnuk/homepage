@@ -1,0 +1,29 @@
+.toggle-button {
+    text-align: center;
+    padding: 7px;
+    border: 2px solid black;
+    cursor: pointer;
+    background: rgb(56, 0, 255);
+    background: linear-gradient(29deg, rgba(56, 0, 255, 1) 11%, rgba(249, 14, 14, 1) 100%);
+    color: white;
+    margin-bottom: 7px;
+}
+
+.timeline {
+    transition-duration: 50ms;
+    transition-property: visibility, opacity;
+    transition-delay: initial;
+    max-height: 1500px;
+    overflow: hidden;
+}
+
+.timeline.hidden {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    margin-bottom: 0;
+}
+
+.aboba {
+    margin: 10px;
+}
